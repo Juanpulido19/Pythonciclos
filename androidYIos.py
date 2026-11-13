@@ -12,7 +12,7 @@ while seguir == "S" or seguir == "s":
     voto = input()
 
     if voto == "A" or voto == "a":
-        votosAndroid = votosAndroid + 1
+        votosAndroid += 1
     else:
         if voto == "I" or voto == "i":
             votosIos = votosIos + 1
